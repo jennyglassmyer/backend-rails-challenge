@@ -1,1 +1,11 @@
-<%= @museums %>
+<% @postal_codes.each do |postal_code| %>
+<p><%= postal_code%>:</p> 
+  <ul>
+  <% @museums["features"].each do |feature| %>
+    <% if feature['context'][0]['text'] == postal_code %>
+      <li><%= feature['text']%></li>
+    <% end %>
+  <% end %>
+  </ul>
+<% end %>
+
