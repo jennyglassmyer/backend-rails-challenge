@@ -13,7 +13,7 @@ We're looking for a small Ruby on Rails application providing an endpoint which 
 longitude and spits out the names of museums around that location grouped by their postcode as JSON.
 Mapbox provides a handy API endpoint for fetching museums around a location(youwill need to create a
 free account for getting an API key to use their API).
-
+<br>
 As an example when doing a request to /museums?lat=52.494857&lng=13.437641 would generate a response similar to:
 
 ```
