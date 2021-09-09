@@ -16,7 +16,7 @@ free account for getting an API key to use their API).
 <br>
 As an example when doing a request to /museums?lat=52.494857&lng=13.437641 would generate a response similar to:
 
-```
+```json
 {
   "10999": ["Werkbundarchiv – museum of things"],
   "12043": ["Museum im Böhmischen Dorf"],
